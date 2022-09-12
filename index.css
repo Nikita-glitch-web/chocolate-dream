@@ -183,7 +183,7 @@
     background-size: cover;
     box-sizing: border-box;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+
   }
 
   .text-column-second {
@@ -196,7 +196,68 @@
     padding-left: 50px;
   }
 
- 
+  .button-without-background {
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: #ada9a0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+  }
+
+  .box-with-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+  }
+
+  .left-img {
+    padding-right: 13px;
+
+  }
+
+  .first-row-with-img-second {
+    padding-top: 12px;
+  }
+
+  .button-without-background:hover {
+    color: black;
+    cursor: pointer;
+  }
+
+  .box-with-just-text {
+    background-image: url(./images/second-just-backgroumd.webp);
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+
+  }
+
+  
+
+  .title-for-background-box {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 33px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 18%;
+  }
+
+  .text-for-background-box {
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 13px;
+    --fill-layer-background-media-position: fixed;
+  }
+
+
 
   @media (max-width: 767px) {
     .first-big-title {
@@ -215,6 +276,20 @@
       .image-wrapper {
         padding: 0px;
       }
+        .first-row-with-img {
+            display: flex;
+            flex-direction: column;
+    } 
+
+    .left-img {
+        padding: 0px;
+        padding-top: 20px;
+
+    }
+
+    .right-img {
+        padding-top: 20px;
+    }
   }
 
   
